@@ -1,0 +1,115 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background-color: #ff6347; /* Red color */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header .logo img {
+    width: 50px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.social-media a {
+    margin: 0 15px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+.social-media img {
+    width: 100%;
+    height: 100%;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff6347;
+}
+
+.about p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Pre-sale Section */
+.presale {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.presale h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.presale p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+#connect-wallet {
+    background-color: #ff6347;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#connect-wallet:hover {
+    background-color: #e5533d;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
